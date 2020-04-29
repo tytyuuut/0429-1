@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="widthge=device-width, initial-scale=1.0, user-scalable=1, maximum-scale=2">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+    * {
+        font-family: 微軟正黑體, Noto Sans TC;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        max-width: auto;
+        max-height: auto;
+    }
+
+    .navbar {
+        padding-left: 0;
+    }
+
+    @media(max-width: 576px) {
+        .navbar {
+            padding-left: 16px;
+        }
+    }
+   
+    @media(max-width: 576px) {
+        .nav-link {
+            text-align: center;
+            position: relative;
+            right: 17px;
+        }
+    }
+    @media(max-width: 574px) {
+        .nav-link {
+            right: 0px;
+        }
+    }
+    @media(max-width: 574px) {
+        .navbar-collapse {
+            padding-right: 0px!important;
+        }
+    }
+    ul {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .wrepper {
+        overflow: hidden;
+    }
+
+    .aaa {
+        position: fixed;
+        width: 24%;
+    }
+
+    @media(max-width: 576px) {
+        .aaa {
+            position: relative;
+            width: 100%;
+        }
+    }
+
+    @media(max-width: 576px) {
+        .navbar {
+            width: 110vw;
+        }
+    }
+
+    .col-sm-9 {
+        padding-left: 0;
+       
+        left: 24%;
+    }
+
+    @media(max-width: 576px) {
+        .col-sm-9 {
+            
+            left: 0%;
+        }
+    }
+
+    @media(max-width: 1024px) {
+        .col-sm-8 {
+            padding-top: 35px !important;
+        }
+    }
+
+    @media(max-width: 768px) {
+        .col-sm-8 {
+            padding-top: 15px !important;
+        }
+    }
+
+    @media(max-width: 414px) {
+        .footer-bg .col-sm {
+            margin-top: 15px !important;
+        }
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .col-sm-3 {
+        background-image: url(images/bg-2.png);
+        background-size: cover;
+        background-position: left;
+        overflow: hidden;
+        background-attachment: fixed;
+        position: fixed !important;  
+        width: 25% !important;
+        height: 100vh;
+       
+    }
+    @media(max-width: 576px) {
+        .col-sm-3 {
+            width: 100% !important;
+            height: 100vh;
+            position: relative!important; 
+        }
+    }
+    @media(max-width: 574px) {
+        .col-sm-3 {
+        height: 100%;
+        }
+    }
+
+
+    nav {
+        background-image: url(images/bg-3.png);
+        background-size: cover;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .nav-item {
+        margin-bottom: 10px;
+    }
+
+    .nav-item a {
+        font-size: 23px;
+        color: #fff;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+        
+    }
+
+    a:hover {
+        color: red !important;
+    }
+
+    .navbar-light .navbar-toggler {
+        background-color: #fefefe;
+    }
+
+    .slogan-bg {
+        background-image: url(images/slogan-bg.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-attachment: fixed;
+    }
+
+    .justify-content-en .nav-item:hover {
+        border: 1px solid red !important;
+    }
+
+    .banner-bg {
+        background-image: url(images/meal-bg.jpeg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .navbar {
+      margin: 0 !important;
+      padding: 0 !important;
+      width: 100%;
+    }
+    @media(max-width: 576px) {
+        .container {
+            padding-right: 30px !important;
+        }
+    }
+    @media(max-width: 574px) {
+        .container {
+            padding-right: 30px !important;
+            padding-left: 30px !important;
+        }
+    }
+     @media(max-width: 574px) {
+        .navbar {
+            padding: 8px 16px!important;
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <div class="wrepper">
+        <div class="row">
+            <div style="box-shadow: 0px 1px 15px rgba(0,0,0,0.7);" class="col-sm-3">
+                <div class="aaa">
+                    <img style="width: 100%;height:80%;max-width:auto;max-height: auto;padding:10px;" src="images/logo.png" data-aos="fade-down" data-aos-duration="1000">
+                    <nav class="navbar navbar-expand-lg navbar-light" data-aos="fade-right" data-aos-duration="1500">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="padding-right: 10px;">
+                            <ul style="display: block;" class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html" style="color: #fff;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+      ">• 首頁 <font style="font-size: 14px;">ホーム</font></a>
+                                </li>
+                                <div class="line"></div>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html" style="color: #fff;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+      ">• 關於 <font style="font-size: 14px;">について</font></a>
+                                </li>
+                                <div class="line"></div>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="news.html" style="color: #fff;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+      ">• 最新消息 <font style="font-size: 14px;">最新ニュース
+                                        </font></a>
+                                </li>
+                                <div class="line"></div>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="menu.html" style="color: #fff;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+      ">• 菜單 <font style="font-size: 14px;">メニュー
+                                        </font></a>
+                                </li>
+                                <div class="line"></div>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html" style="color: #fff;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+      ">• 聯絡我們 <font style="font-size: 14px;">お問い合わせ
+                                        </font></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <!-- banner -->
+            <div class="col-sm-9" style="background-image: url(images/bgg.png);background-size: cover;background-repeat: no-repeat;background-position: bottom;padding-right: 0px;">
+                <div class="banner-bg" data-aos="fade-down" data-aos-duration="2000">
+                    <h1 style="text-align: center;color: #FFF;text-shadow: 1PX 1PX 5PX rgba(0,0,0,0.7);font-size: 50px;">嵐拉麵菜色</h1>
+                    <h3 style="text-align: center;color: #FFF;text-shadow: 1PX 1PX 5PX rgba(0,0,0,0.7);font-size: 30px;">- ラーメン -
+                    </h3>
+                </div>
+                <!-- about -->
+                <div style="margin-bottom: 60px;" class="new">
+                    <div style="max-width: 1000px;" class="container">
+                        <img style="width: 250px;display: block;margin:0 auto;margin-top: 80px;margin-bottom: 7px;box-shadow: 1px 1px 5px rgba(0,0,0,0.7)" src="images/Artboard 6 Copy 7.png" data-aos="fade-down" data-aos-duration="1500">
+                        <h4 style="text-align: center;color: #fff;margin-bottom: 20px;" data-aos="fade-down" data-aos-duration="1500">- ラーメン
+                            -</h4>
+                        <div class="about">
+                            <div class="row" data-aos="fade-down" data-aos-duration="1500">
+                                <div class="col-sm">
+                                    <div class="image">
+                                        <img src="images/news/海鮮-首頁.png">
+                                    </div>
+                                    <h3 style="color: #fff;text-align: center;margin-top: 20px;">海鮮拉麵</h3>
+                                    <h6 style="color: #fff;margin-top: 8px;text-shadow: 1px 1px 5px rgba(0,0,0,0.7);line-height:28px;">特色即在於甘醇香濃，並蘊含香濃的口感，精華而成的湯頭油脂豐富、香 濃順口的甘美滋味令人入口不忘</h6>
+                                </div>
+                                <div class="col-sm">
+                                    <div class="image">
+                                        <img src="images/news/地獄拉麵.png">
+                                        <h3 style="color: #fff;text-align: center;margin-top: 20px;">地獄拉麵</h3>
+                                        <h6 style="color: #fff;margin-top: 8px;text-shadow: 1px 1px 5px rgba(0,0,0,0.7);line-height:28px;">使用豚骨的濃厚湯頭為基底再加上鬼 匠遵循古法特製的香辣醬，麻香中帶 點微辣喜愛吃辣的朋友千萬不要錯過</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row" style="margin-top: 20px;" data-aos="fade-down" data-aos-duration="1500">
+                                <div class="col-sm">
+                                    <div class="image">
+                                        <img src="images/news/醬油.png">
+                                    </div>
+                                    <h3 style="color: #fff;text-align: center;margin-top: 20px;">醬油拉麵</h3>
+                                    <h6 style="color: #fff;margin-top: 8px;text-shadow: 1px 1px 5px rgba(0,0,0,0.7);line-height:28px;">湯頭是以雞骨為主原料，配以昆布去除肉腥味，再加上風鰹節(柴魚)小魚干、醬油一起熬製，整體的口味較為清淡不油膩</h6>
+                                </div>
+                                <div class="col-sm">
+                                    <div class="image">
+                                        <img src="images/news/蒜味.png">
+                                        <h3 style="color: #fff;text-align: center;margin-top: 20px;">蒜味拉麵</h3>
+                                        <h6 style="color: #fff;margin-top: 8px;text-shadow: 1px 1px 5px rgba(0,0,0,0.7);line-height:28px;">湯頭是以雞骨再加上蒜頭，增加饕客能夠一飽口福的慾望，當然也可以選擇更換其他湯頭呦</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row" style="margin-top: 20px;" data-aos="fade-down" data-aos-duration="1500">
+                                <div class="col-sm">
+                                    <div class="image">
+                                        <img src="images/news/無骨雞腿拉麵.png">
+                                    </div>
+                                    <h3 style="color: #fff;text-align: center;margin-top: 20px;">無骨雞腿拉麵</h3>
+                                    <h6 style="color: #fff;margin-top: 8px;text-shadow: 1px 1px 5px rgba(0,0,0,0.7);line-height:28px;">使用豚骨的濃厚湯頭再配上香脆雞排，讓原本就濃厚的豚骨拉麵再增添一份香辣與脆感</h6>
+                                </div>
+                                <div class="col-sm">
+                                    <div class="image">
+                                        <img src="images/news/味增拉麵.png">
+                                        <h3 style="color: #fff;text-align: center;margin-top: 20px;">味增拉麵</h3>
+                                        <h6 style="color: #fff;margin-top: 8px;text-shadow: 1px 1px 5px rgba(0,0,0,0.7);line-height:28px;">特色即在於甘醇香濃，並蘊含大豆強 烈的口感，混合了豬骨、雞骨及新鮮 蔬果的精華而成的湯頭油脂豐富、香 濃順口的甘美滋味令人入口不忘</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <img style="width: 250px;display: block;margin:0 auto;margin-top: 80px;margin-bottom: 7px;box-shadow: 1px 1px 5px rgba(0,0,0,0.7)" src="images/Artboard 6 Copy 6.png" data-aos="fade-down" data-aos-duration="1500">
+                        <h4 style="text-align: center;color: #fff;margin-bottom: 20px;" data-aos="fade-down" data-aos-duration="1500">- おかず
+                            -</h4>
+                        <div class="about">
+                            <div class="row" data-aos="fade-down" data-aos-duration="1500">
+                                <div class="col-sm">
+                                    <div class="image">
+                                        <img src="images/news/天婦羅.png">
+                                    </div>
+                                    <h3 style="color: #fff;text-align: center;margin-top: 20px;">天婦羅</h3>
+                                    <h6 style="color: #fff;margin-top: 8px;text-shadow: 1px 1px 5px rgba(0,0,0,0.7);line-height:28px;">關東天婦羅烹飪時用的是雞蛋和麵粉，海鮮比例高，以芝麻油炸（有時會混進大豆油），油溫不高，需要的時間長，關西用的是水和麵粉，蔬菜比例高，以熱油炸，時間短。</h6>
+                                </div>
+                                <div class="col-sm">
+                                    <div class="image">
+                                        <img src="images/news/海帶絲.png">
+                                        <h3 style="color: #fff;text-align: center;margin-top: 20px;">海帶絲</h3>
+                                        <h6 style="color: #fff;margin-top: 8px;text-shadow: 1px 1px 5px rgba(0,0,0,0.7);line-height:28px;">海帶絲、豆乾、豆皮與綠豆芽的組合，帶來豐富口感。如果家有牙口不好的長輩或小孩，可將海帶絲改以海帶芽替代，營養價值依舊。</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row" style="margin-top: 20px;" data-aos="fade-down" data-aos-duration="1500">
+                                <div class="col-sm">
+                                    <div class="image">
+                                        <img src="images/news/溏心蛋.png">
+                                    </div>
+                                    <h3 style="color: #fff;text-align: center;margin-top: 20px;">溏心蛋</h3>
+                                    <h6 style="color: #fff;margin-top: 8px;text-shadow: 1px 1px 5px rgba(0,0,0,0.7);line-height:28px;">只要切開如白玉般Q彈有勁的蛋白，油亮順滑的香濃蛋黃就瞬間吸引了大家的目光，一口咬下，感覺到它溫柔純郁的香氣在口中蔓延開，非常迷人！</h6>
+                                </div>
+                                <div class="col-sm">
+                                    <div class="image">
+                                        <img src="images/news/牛蒡絲.png">
+                                        <h3 style="color: #fff;text-align: center;margin-top: 20px;">牛蒡絲</h3>
+                                        <h6 style="color: #fff;margin-top: 8px;text-shadow: 1px 1px 5px rgba(0,0,0,0.7);line-height:28px;">去皮後的牛蒡接觸空氣立刻氧化、變色，因此一定要先準備一盆加有白醋的清水，刨出來的牛蒡絲立刻放入醋水中浸泡，不但保持色澤，炒出來的口感也比較軟，而醋在加熱過程中會揮發，所以不用擔心殘留醋味。</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- slogan -->
+                <div style="margin-top: 50px;" class="slogan">
+                    <div class="slogan-bg">
+                        <div class="container">
+                            <div class="bbb" data-aos="fade-down" data-aos-duration="1500">
+                                <img style="width: 230px;display: block;margin:0 auto;" src="images/logo-2.png">
+                                <h3 style="text-align: center;font-size:45px;color: #fff;text-shadow: 1px 1px 5px rgba(0,0,0,0.7);">美味從這開始</h3>
+                                <h5 style="text-align: center;font-size:25px;color: #fff;text-shadow: 1px 1px 5px rgba(0,0,0,0.7);">- ここから美味しい -
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- footer -->
+                <div class="footer" style="margin-top: 30px;margin-bottom: 10px;">
+                    <div class="container">
+                        <div class="footer-bg" style="max-width:1000px;display:block;margin:0 auto;background-image: url(images/bg-3.png);padding: 30px;border-radius: 15px;" data-aos="fade-down" data-aos-duration="1500">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <img style="box-shadow: 1px 1px 5px rgba(0,0,0,0.7);" src="images/facebook.png">
+                                        </div>
+                                        <div class="col-sm">
+                                            <img style="box-shadow: 1px 1px 5px rgba(0,0,0,0.7);" src="images/Line 生活圈.png">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row" style="color: #fff;font-size: 20px;border: 1px solid #fff;margin-top: 20px;text-shadow: 1px 1px 5px rgba(0,0,0,0.7);border-radius: 10px;">
+                                <div class="col-sm" style="text-align: center;">
+                                    <div class="col-sm" style="margin-top: 20px;">信箱:123@gmail.com</div>
+                                    <div class="col-sm" style="margin-top: 10px;margin-bottom: 20px;">電話:02-4567-4455</div>
+                                </div>
+                                <div class="col-sm" style="text-align: center;">
+                                    <div class="col-sm" style="margin-top: 20px;">地址:台北市中正區中正路2號</div>
+                                    <div class="col-sm" style="margin-top: 10px;margin-bottom: 20px;">營業時間:早上11點~晚上9點</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- copyright -->
+                <div class="copyright" style="padding-left: 15px;
+    padding-right: 15px;">
+                    <p style="width: 100%;text-align: center;color: #fff;">Copyright © 2019 Andy Beef All Right Received. | 版權所有 © Andy Beef有限公司</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js
+"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script type="text/javascript">
+// 
+AOS.init();
+</script>
+
+</html>

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1, maximum-scale=2">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+    * {
+        font-family: 微軟正黑體, Noto Sans TC;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        max-width: auto;
+        max-height: auto;
+    }
+
+    .navbar {
+        padding-left: 0;
+    }
+
+    @media(max-width: 576px) {
+        .navbar {
+            padding-left: 16px;
+        }
+    }
+   
+    @media(max-width: 576px) {
+        .nav-link {
+            text-align: center;
+            position: relative;
+            right: 17px;
+        }
+    }
+    @media(max-width: 574px) {
+        .nav-link {
+            right: 0px;
+        }
+    }
+    @media(max-width: 574px) {
+        .navbar-collapse {
+            padding-right: 0px!important;
+        }
+    }
+
+    ul {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .wrepper {
+        overflow: hidden;
+    }
+
+    .aaa {
+        position: fixed;
+        width: 24%;
+    }
+
+    @media(max-width: 576px) {
+        .aaa {
+            position: relative;
+            width: 100%;
+        }
+    }
+
+    @media(max-width: 576px) {
+        .navbar {
+            width: 110vw;
+        }
+    }
+
+    .col-sm-9 {
+        padding-left: 0;
+        padding-right: 0;
+        left: 24%;
+    }
+
+    @media(max-width: 576px) {
+        .col-sm-9 {
+           left: 0%;
+        }
+    }
+
+    @media(max-width: 1024px) {
+        .col-sm-8 {
+            padding-top: 35px !important;
+        }
+    }
+
+    @media(max-width: 768px) {
+        .col-sm-8 {
+            padding-top: 15px !important;
+        }
+    }
+
+    @media(max-width: 414px) {
+        .footer-bg .col-sm {
+            margin-top: 15px !important;
+        }
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .col-sm-3 {
+        background-image: url(images/bg-2.png);
+        background-size: cover;
+        background-position: left;
+        overflow: hidden;
+        background-attachment: fixed;
+        position: fixed !important;  
+        width: 25% !important;
+        height: 100vh;
+       
+    }
+    @media(max-width: 576px) {
+        .col-sm-3 {
+            width: 100% !important;
+            height: 100vh;
+            position: relative!important; 
+        }
+    }
+    @media(max-width: 574px) {
+        .col-sm-3 {
+        height: 100%;
+        }
+    }
+
+    nav {
+        background-image: url(images/bg-3.png);
+        background-size: cover;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .nav-item {
+        margin-bottom: 10px;
+    }
+
+    .nav-item a {
+        font-size: 23px;
+        color: #fff;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+        
+    }
+
+    a:hover {
+        color: red !important;
+    }
+
+    .navbar-light .navbar-toggler {
+        background-color: #fefefe;
+    }
+
+    .slogan-bg {
+        background-image: url(images/slogan-bg.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-attachment: fixed;
+    }
+
+    .justify-content-en .nav-item:hover {
+        border: 1px solid red !important;
+    }
+
+    .banner-bg {
+        background-image: url(images/Lv68032cTDHX.jpg);
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .navbar {
+      margin: 0 !important;
+      padding: 0 !important;
+      width: 100%;
+    }
+    @media(max-width: 576px) {
+        .container {
+            padding-right: 30px !important;
+        }
+    }
+    @media(max-width: 574px) {
+        .container {
+            padding-right: 30px !important;
+            padding-left: 30px !important;
+        }
+    }
+     @media(max-width: 574px) {
+        .navbar {
+            padding: 8px 16px!important;
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <div class="wrepper">
+        <div class="row" style="overflow: hidden;">
+            <div style="box-shadow: 0px 1px 15px rgba(0,0,0,0.7);" class="col-sm-3">
+                <div class="aaa">
+                    <img style="width: 100%;height:80%;max-width:auto;max-height: auto;padding:10px;" src="images/logo.png" data-aos="fade-down" data-aos-duration="1000">
+                    <nav class="navbar navbar-expand-lg navbar-light" data-aos="fade-right" data-aos-duration="1500">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul style="display: block;" class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html" style="color: #fff;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+      ">• 首頁 <font style="font-size: 14px;">ホーム</font></a>
+                                </li>
+                                <div class="line"></div>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html" style="color: #fff;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+      ">• 關於 <font style="font-size: 14px;">について</font></a>
+                                </li>
+                                <div class="line"></div>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="news.html" style="color: #fff;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+      ">• 最新消息 <font style="font-size: 14px;">最新ニュース
+                                        </font></a>
+                                </li>
+                                <div class="line"></div>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="menu.html" style="color: #fff;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+      ">• 菜單 <font style="font-size: 14px;">メニュー
+                                        </font></a>
+                                </li>
+                                <div class="line"></div>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html" style="color: #fff;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+      ">• 聯絡我們 <font style="font-size: 14px;">お問い合わせ
+                                        </font></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <!-- banner -->
+            <div class="col-sm-9" style="background-image: url(images/bgg.png);background-size: cover;background-repeat: no-repeat;background-position: bottom;">
+                <div class="banner-bg" data-aos="fade-down" data-aos-duration="2000">
+                    <h1 style="text-align: center;color: #FFF;text-shadow: 1PX 1PX 5PX rgba(0,0,0,0.7);font-size: 50px;">嵐拉麵聯絡資訊</h1>
+                    <h3 style="text-align: center;color: #FFF;text-shadow: 1PX 1PX 5PX rgba(0,0,0,0.7);font-size: 30px;">- ラーメン連絡先 -
+                    </h3>
+                </div>
+                <!-- about -->
+                <div style="margin-bottom: 60px;" class="new">
+                    <div style="max-width: 1000px;" class="container">
+                        <img style="width: 250px;display: block;margin:0 auto;margin-top: 80px;margin-bottom: 7px;box-shadow: 1px 1px 5px rgba(0,0,0,0.7)" data-aos="fade-down" data-aos-duration="1500" src="images/聯絡我們.png">
+                        <h4 style="text-align: center;color: #fff;margin-bottom: 40px;" data-aos="fade-down" data-aos-duration="1500">- お問い合わせ
+                            -</h4>
+                        <div class="bbb" style="background-image: url(images/bg-3.png);padding: 30px;border-radius: 20px;box-shadow: 1px 1px 5px rgba(0,0,0,0.7)" data-aos="fade-down" data-aos-duration="1500">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d557.6460177276377!2d121.56383862972831!3d25.0517587246859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1szh-TW!2stw!4v1563881811899!5m2!1szh-TW!2stw" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            <form style="margin-top: 30px;" action="" method="post" name="myform" onSubmit="return check(this);">
+                                <div class="form-group">
+                                    <label style="color: #fff;" for="name">姓名 <font color="#d60000">*</font></label>
+                                    <input style="float: left;margin-bottom: 20px;" required="required" required="required" type="text" name="name" class="form-control" id="name" aria-describedby="emailHelp" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label style="color: #fff;" for="number">手機號碼 <font color="#d60000">*</font></label>
+                                    <input required="required" required="required" name="number" type="text
+" class="form-control" id="number" aria-describedby="emailHelp" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label style="color: #fff;" for="exampleInputEmail1">e-mail<font color="#d60000">*</font></label>
+                                    <input required="required" name="exampleInputEmail1" required="required" type="text
+" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label style="color: #fff;" for="name">留言內容</label>
+                                    <textarea type="name" class="form-control" name="name" id="name" aria-describedby="emailHelp" placeholder="請留言...."></textarea>
+                                </div>
+                                <button style="width: 30%;background-color: red;color:#fff;display: block;margin:0 auto;" type="submit" class="btn">送出</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- slogan -->
+                <div style="margin-top: 50px;" class="slogan">
+                    <div class="slogan-bg">
+                        <div class="container">
+                            <div class="bbb" data-aos="fade-down" data-aos-duration="1500">
+                                <img style="width: 230px;display: block;margin:0 auto;" src="images/logo-2.png">
+                                <h3 style="text-align: center;font-size:45px;color: #fff;text-shadow: 1px 1px 5px rgba(0,0,0,0.7);">美味從這開始</h3>
+                                <h5 style="text-align: center;font-size:25px;color: #fff;text-shadow: 1px 1px 5px rgba(0,0,0,0.7);">- ここから美味しい -
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- footer -->
+                <div class="footer" style="margin-top: 30px;margin-bottom: 10px;">
+                    <div class="container">
+                        <div class="footer-bg" style="max-width:1000px;display:block;margin:0 auto;background-image: url(images/bg-3.png);padding: 30px;border-radius: 15px;" data-aos="fade-down" data-aos-duration="1500">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <img style="box-shadow: 1px 1px 5px rgba(0,0,0,0.7);" src="images/facebook.png">
+                                        </div>
+                                        <div class="col-sm">
+                                            <img style="box-shadow: 1px 1px 5px rgba(0,0,0,0.7);" src="images/Line 生活圈.png">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row" style="color: #fff;font-size: 20px;border: 1px solid #fff;margin-top: 20px;text-shadow: 1px 1px 5px rgba(0,0,0,0.7);border-radius: 10px;">
+                                <div class="col-sm" style="text-align: center;">
+                                    <div class="col-sm" style="margin-top: 20px;">信箱:123@gmail.com</div>
+                                    <div class="col-sm" style="margin-top: 10px;margin-bottom: 20px;">電話:02-4567-4455</div>
+                                </div>
+                                <div class="col-sm" style="text-align: center;">
+                                    <div class="col-sm" style="margin-top: 20px;">地址:台北市中正區中正路2號</div>
+                                    <div class="col-sm" style="margin-top: 10px;margin-bottom: 20px;">營業時間:早上11點~晚上9點</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- copyright -->
+                <div class="copyright" style="padding-left: 15px;
+    padding-right: 15px;">
+                    <p style="width: 100%;text-align: center;color: #fff;">Copyright © 2019 Andy Beef All Right Received. | 版權所有 © Andy Beef有限公司</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js
+"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script type="text/javascript">
+// 
+AOS.init();
+</script>
+
+</html>
